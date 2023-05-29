@@ -1,0 +1,43 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    html {
+      font-size: 12px;
+    }
+    .container {
+      padding: 15px 25px 80px 25px;
+    }
+    .box-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .box {
+      padding: 20px 10px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    html {
+      font-size: 10px;
+    }
+    .container {
+      padding: 15px 30px 80px 30px;
+    }
+    .box-container {
+      grid-template-columns: 1fr;
+    }
+    .box {
+      padding: 15px 5px;
+    }
+  }
+  @media (max-width: 320px) {
+    html {
+      font-size: 10px;
+    }
+    .container {
+      padding: 10px 30px 50px 30px;
+    }
+    .box-container {
+      grid-template-columns: 1fr;
+    }
+  }
